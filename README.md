@@ -1,7 +1,7 @@
 ### 安装
 
 ```php
-composer require "klphp/hashid" @dev
+composer require "klphp/hashid" v1.0
 ```
 
 
