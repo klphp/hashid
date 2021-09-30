@@ -1,0 +1,18 @@
+{
+    "name": "kl/hashid",
+    "description": "hashid",
+    "autoload": {
+        "psr-4": {
+            "Kl\\Hashid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kelei",
+            "email": "5735570@qq.com"
+        }
+    ],
+    "require": {
+        "hashids/hashids": "^4.1"
+    }
+}
