@@ -61,7 +61,7 @@ class Hashid{
      */
     public function encode(int $id){
         $hashids = $this->HashIds();
-        return $hashids->encode(1);
+        return $hashids->encode($id);
     }
 
 }
