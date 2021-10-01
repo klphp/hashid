@@ -15,7 +15,7 @@
  * $id=$model->decode('abc');
  * var_dump('id:'.$id);
  */
-namespace Kl\HashId;
+namespace Kl\Hashid;
 use Hashids\Hashids;
 
 class Hashid{

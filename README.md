@@ -20,7 +20,7 @@ $model=new \Kl\Hashid\Hashid();
 
 $sid=$model->encode(1);
 var_dump('sid:'.$sid);
-$id=$model->decode('abc');
+$id=$model->decode($sid);
 var_dump('id:'.$id);
 ```
 
